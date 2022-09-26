@@ -7,6 +7,7 @@
 }
 .nav {
     align-content: flex-end;
+    font-size: 85%;
 }
 .container-sm {
     position: relative;

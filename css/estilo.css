@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    
 }
 .img {
     filter: brightness(50%);

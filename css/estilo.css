@@ -5,8 +5,9 @@
     filter: brightness(50%);
     max-width: 100%;
 }
-.nav {
-    align-content: flex-end;
+.links {
+    position: absolute;
+    right: 0%;
     font-size: 80%;
 }
 .container-sm {

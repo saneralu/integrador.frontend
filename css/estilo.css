@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+.img {
+    filter: brightness(50%);
+    max-width: 100%;
+}
+.container-sm {
+    position: relative;
+}
+.Conf-Bs-As {
+    position: absolute;
+    bottom: 80px;
+    right: 16px;
+    font-size: 18px;
+    color: white;
+    text-align: end;
+    word-break: keep-all;
+    max-width: 540px;
+  }
+
+  .boton-orador {
+    border-color: white;
+    background-color: rgba(245, 245, 245, 0);
+    color: white;
+}
+
+.boton-tickets {
+    border-color: green;
+    background-color: green;
+    color: white;
+}
+.oradores {
+    font-weight: lighter;
+}
+
+.row-cards {
+    padding-inline: 50px;
+}
+
+.card-text {
+    font-size: small;
+}
+
+.honolulu {
+    height: 425px;
+    width: auto;
+}
+
+.texto-honolulu {
+    font-size: small;
+    box-sizing: content-box;
+}
+
+.footer {
+    background-color: #315c79;
+    text-align: center;
+  }

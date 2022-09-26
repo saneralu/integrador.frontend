@@ -5,6 +5,9 @@
     filter: brightness(50%);
     max-width: 100%;
 }
+.nav {
+    font-size: 90%;
+}
 .container-sm {
     position: relative;
 }

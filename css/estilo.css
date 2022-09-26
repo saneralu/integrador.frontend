@@ -6,8 +6,7 @@
     max-width: 100%;
 }
 .nav {
-    font-size: 85%;
-    margin-right: 200px;
+    align-content: flex-end;
 }
 .container-sm {
     position: relative;

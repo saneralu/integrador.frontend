@@ -5,11 +5,7 @@
     filter: brightness(50%);
     max-width: 100%;
 }
-#links {
-    position: absolute;
-    right: 0%;
-    font-size: 80%;
-}
+
 .container-sm {
     position: relative;
 }

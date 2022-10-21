@@ -60,6 +60,14 @@
   border-color: #c2c2c2;
 }
 
+.precio {
+    font-weight: 400;
+    padding: 10px 14px;
+    border-radius: 4px;
+    background-color: rgba(65, 155, 228, 0.699);
+    color: #315c79;
+}
+
 .btn {
    width: 49%;
    margin-left: auto;

@@ -2,10 +2,6 @@
     box-sizing: border-box;
     
 }
-.img {
-    filter: brightness(50%);
-    max-width: 100%;
-}
 
 .container-sm {
     position: relative;

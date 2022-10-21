@@ -84,10 +84,31 @@
         </form>
         <form>
           <div class="col">
-            <input type="text" class="form-control" placeholder="Correo">
+            <input type="email" class="form-control" placeholder="Correo">
           </div>
         </form>
-      </div>
+        <form>
+          <div class="row">
+            <div class="col">
+              <p>Cantidad</p>
+              <input type="number" class="form-control" placeholder="Cantidad">
+            </div>
+            <div class="col categorias">
+              <p>Categoria</p>
+              <input list="categorias" class="form-control">
+               <datalist id="categorias">
+                 <option value="Estudiante">
+                 <option value="Trainee">
+                 <option value="Junior">
+               </datalist>
+            </div>
+          </div>
+        </form>
+        <div class="col">
+          <button type="reset" class="btn btn-success btn-block">Borrar</button>
+          <button type="submit" class="btn btn-success btn-block">Resumen</button>
+        </div>
+     </div>
     <footer class="footer container-fluid">
       <nav class="navbar navbar-expand container-fluid justify-content-center">
         <ul class="navbar-nav">

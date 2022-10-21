@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/tickets.css">
   
-    <title>Conf Bs As</title>
+    <title>Conf Bs As - Compra tikects</title>
 </head>
 <body>
     <div>
@@ -95,18 +95,17 @@
             </div>
             <div class="col categorias">
               <p>Categoria</p>
-              <input list="categorias" class="form-control">
-               <datalist id="categorias">
-                 <option value="Estudiante">
-                 <option value="Trainee">
-                 <option value="Junior">
-               </datalist>
+               <select id="categorias">
+                 <option value="Estudiante">Estudiante</option>
+                 <option value="Trainee">Trainee</option>
+                 <option value="Junior">Junior</option>
+               </select>
             </div>
           </div>
         </form>
         <div class="row row-cols-1 row-cols-md-2">
-          <button type="reset" class="btn btn-success btn-block">Borrar</button>
-          <button type="submit" class="btn btn-success btn-block">Resumen</button>
+          <button type="reset" class="btn">Borrar</button>
+          <button type="submit" class="btn">Resumen</button>
         </div>
      </div>
     <footer class="footer container-fluid">

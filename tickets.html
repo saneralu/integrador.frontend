@@ -71,42 +71,42 @@
         <p class="small mb-1 mt-1">VENTA</p>
         <div class="h3"><p>VALOR DE TICKET $200</p></div>
     </div>
-    <div class="container d-grid gap-3 mb-2">
+    <div class="container d-grid gap-3 mb-2" id="ticket">
         <form>
           <div class="row">
             <div class="col">
-              <input type="text" class="form-control" placeholder="Nombre">
+              <input type="text" class="form-control" placeholder="Nombre" id="nombre">
             </div>
             <div class="col">
-              <input type="text" class="form-control" placeholder="Apellido">
+              <input type="text" class="form-control" placeholder="Apellido" id="apellido">
             </div>
           </div>
         </form>
         <form>
           <div class="col">
-            <input type="email" class="form-control" placeholder="Correo">
+            <input type="email" class="form-control" placeholder="Correo" id="correo">
           </div>
         </form>
         <form>
           <div class="row">
             <div class="col">
               <p>Cantidad</p>
-              <input type="number" class="form-control" placeholder="Cantidad">
+              <input type="number" class="form-control" placeholder="Cantidad" id="cantidad">
             </div>
             <div class="col categorias">
               <p>Categoria</p>
                <select id="categorias">
-                 <option value="Estudiante">Estudiante</option>
-                 <option value="Trainee">Trainee</option>
-                 <option value="Junior">Junior</option>
+                 <option value="estudiante" id="estudiante">Estudiante</option>
+                 <option value="trainee" id="trainee">Trainee</option>
+                 <option value="junior" id="junior">Junior</option>
                </select>
             </div>
           </div>
         </form>
-        <h5 class="precio">Total a Pagar:</h5>
+        <h5 class="precio" id="precio">Total a Pagar: $</h5>
         <div class="row row-cols-1 row-cols-md-2">
-          <button type="reset" class="btn">Borrar</button>
-          <button type="submit" class="btn">Resumen</button>
+          <input type="reset" class="btn" value="Reset" id="btnReset">
+          <button type="submit" class="btn" id="btnResumen">Resumen</button>
         </div>
      </div>
     <footer class="footer container-fluid">

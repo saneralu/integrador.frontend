@@ -21,7 +21,7 @@ function borrar() {
     document.getElementById("apellido").value = "";
     document.getElementById("correo").value = "";
     document.getElementById("cantidad").value = "";
-    categoria.value = "";
+    categoria.value = "estudiante";
     document.getElementById("precio").innerHTML = "Total a Pagar: $";
 
 }
